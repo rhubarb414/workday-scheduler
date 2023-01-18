@@ -6,7 +6,11 @@ This is a simple hour-by-hour planner for an 8 am - 6 pm workday. It pushed my d
 
 ## Usage
 
-This was built based on the following acceptance criteria
+See the deployed scheduler [here](https://rhubarb414.github.io/workday-scheduler/)
+
+and a gif of the expected behavior ![here](./assets/05-third-party-apis-homework-demo.gif).
+
+This scheduler was built based on the following acceptance criteria:
 
 ```md
 GIVEN I am using a daily planner to create a schedule
