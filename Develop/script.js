@@ -58,7 +58,7 @@ $(function () {
     //compare hour to current IRL hour and apply corresponding colors to time-blocks
     if (hour < dayjs().hour()) {
       timeBlock.classList.add("past");
-    } else if (hour === dayjs().hour()) {
+    } else if (hour === dayjs().hour().toString()) {
       timeBlock.classList.add("present");
     } else {
       timeBlock.classList.add("future");
